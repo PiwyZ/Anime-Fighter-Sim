@@ -1,6 +1,5 @@
-##README - IRLV's Open-Source Extra Anime Fighter Scripts
+## Welcome to IRLV's Open-Source Extra Anime Fighter Scripts!
+Hello there! Welcome aboard! If you're diving into the exciting realm of game development, especially focused on creating that perfect anime-style fighting game, you're in the right place. Within this repository, you'll find a collection of scripts that I've put together to hopefully add some extra flair to your development journey.
 
-## Welcome to IRLV's Open-Source Extra Anime Fighter Scripts repository! Here, you'll find a collection of scripts aimed at enhancing your game development experience, particularly if you're working on an anime-style fighting game. Whether you're a seasoned developer or just starting out, these scripts are designed to make your game development journey smoother and more enjoyable.
-
-## About IRLV
-Hi there! I'm IRLV, the new coder here. While I may not be the most experienced developer, I'm passionate about coding and eager to contribute to the community. These scripts are my humble attempt to share what I've learned and hopefully make a positive impact on your game development process.
+## About Me - IRLV
+Hey, I'm IRLV, the new coder on the block! At just 14 years old, I'm already delving into the fascinating world of coding. While I may not have a ton of experience yet, I'm overflowing with passion for coding and a strong desire to contribute to the community. These scripts represent my small way of giving back to the vast world of game development, and I hope they'll help make your journey smoother as you work towards creating something truly amazing. So, let's dive in and work some magic together, shall we?

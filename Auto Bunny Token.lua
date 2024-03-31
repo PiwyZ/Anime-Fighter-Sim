@@ -1,5 +1,6 @@
 -- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T ]
-
+-- Q == Start
+-- E == Stop
 local cfFrames = {
     CFrame.new(8252, -183, 15892),
     CFrame.new(8296, -183, 15734),

@@ -1,7 +1,6 @@
-```lua
--- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T ]
--- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T ]
--- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T ]
+-- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T and Auto Attack gamepass ]
+-- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T and Auto Attack gamepass ]
+-- [ Before u use this #Read First This not to to mon but just pos Require DPC 800T and Auto Attack gamepass ]
 --------------------------------------------------------------------------------------
 -- Q = Start
 -- E = Stop
@@ -41,4 +40,3 @@ userInputService.InputBegan:Connect(function(input)
         loopRunning = false
     end
 end)
-```

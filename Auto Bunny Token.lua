@@ -20,21 +20,20 @@ local stopKey = Enum.KeyCode.E
 
 local loopRunning = false
 
-local function moveCharacter()
-    for _, cfFrame in ipairs(cfFrames) do
-        if not loopRunning then
-            break
-        end
-        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = cfFrame
-        wait(3)
-    end
-end
-
 userInputService.InputBegan:Connect(function(input)
     if input.KeyCode == startKey then
         if not loopRunning then
             loopRunning = true
-            moveCharacter()
+    
+            while loopRunning do
+                for _, cfFrame in ipairs(cfFrames) do
+                    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = cfFrame
+                    wait(3)
+                    if not loopRunning then
+                        break
+                    end
+                end
+            end
         end
     elseif input.KeyCode == stopKey then
         loopRunning = false

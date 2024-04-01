@@ -5,13 +5,12 @@
 -- Q = Start
 -- E = Stop
 local cfFrames = {
-    CFrame.new(8252, -183, 15892),
-    CFrame.new(8296, -183, 15734),
-    CFrame.new(8128, -183, 15592),
-    CFrame.new(7940, -183, 15667),
-    CFrame.new(7973, -184, 15888),
-    CFrame.new(8152, -184, 15942),
-    CFrame.new(8077, -184, 15772)
+    CFrame.new(7962, -182, 15626),
+    CFrame.new(8208, -182, 15608),
+    CFrame.new(8323, -182, 15786),
+    CFrame.new(8128, -182, 15953),
+    CFrame.new(8091, -181, 15779),
+    CFrame.new(7942, -181, 15871),
 }
 
 local userInputService = game:GetService("UserInputService")
@@ -28,7 +27,7 @@ userInputService.InputBegan:Connect(function(input)
             while loopRunning do
                 for _, cfFrame in ipairs(cfFrames) do
                     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = cfFrame
-                    wait(3)
+                    wait(4)
                     if not loopRunning then
                         break
                     end

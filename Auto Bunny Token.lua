@@ -24,7 +24,6 @@ userInputService.InputBegan:Connect(function(input)
     if input.KeyCode == startKey then
         if not loopRunning then
             loopRunning = true
-    
             while loopRunning do
                 for _, cfFrame in ipairs(cfFrames) do
                     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = cfFrame
@@ -59,3 +58,4 @@ else
         VirtualUser:ClickButton2(Vector2.new())
     end)
 end
+

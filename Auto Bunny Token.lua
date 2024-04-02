@@ -4,6 +4,7 @@
 --------------------------------------------------------------------------------------
 -- Q = Start
 -- E = Stop
+
 local cfFrames = {
     CFrame.new(7962, -182, 15626),
     CFrame.new(8208, -182, 15608),
@@ -38,3 +39,23 @@ userInputService.InputBegan:Connect(function(input)
         loopRunning = false
     end
 end)
+
+local Players = game:GetService("Players")
+local GC = getconnections or get_signal_cons
+
+if GC then
+    local idledConnections = GC(Players.LocalPlayer.Idled)
+    for _, connection in ipairs(idledConnections) do
+        if connection.Disable then
+            connection:Disable()
+        elseif connection.Disconnect then
+            connection:Disconnect()
+        end
+    end
+else
+    Players.LocalPlayer.Idled:Connect(function()
+        local VirtualUser = game:GetService("VirtualUser")
+        VirtualUser:CaptureController()
+        VirtualUser:ClickButton2(Vector2.new())
+    end)
+end
